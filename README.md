@@ -5,3 +5,5 @@
 
 
 c. A scenario that would not involve a merge conflict between develop and conflict_branch despite some change, would be if there was a change but on a different line in the file. This would not cause a merge conflict because both changes could co-exist. There is only a merge conflict if both commits have competing information.
+
+2b. Merge conflicts occur when merging branches that have overlapping changes. When we change the title in index.html from the develop branch to "develop title" and then change the title in index.html from the conflict_branch to "conflict title" there will be a merge conflict. Because there are different changes to the title of index.html in both branches, the system doesn't know which change to accept when we merge the branches, and this results in a merge conflict. 
